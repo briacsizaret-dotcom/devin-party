@@ -8,19 +8,28 @@ const { Q, THEMES } = require('./questions');
 
 const PORT = process.env.PORT || 3000;
 const CLUE_EVERY = 8000;   // un nouvel indice toutes les 8 s
-const Q_TIME = 40000;      // 40 s par question
-const REVEAL_TIME = 6000;  // la réponse reste affichée 6 s
+const Q_TIME = +process.env.Q_MS || 40000;      // 40 s par question
+const REVEAL_TIME = +process.env.REVEAL_MS || 6000;  // la réponse reste affichée 6 s
 const MAX_PLAYERS = 12;
 const COLORS = ['#ff5436', '#0f9e84', '#2f5bea', '#e9479b', '#f28c00', '#7a4ddb', '#1c1530', '#00a3c4', '#c2410c', '#15803d', '#be185d', '#4338ca'];
 
 const app = express();
 const server = http.createServer(app);
 const io = new Server(server);
+// images des drapeaux et silhouettes, regroupées dans images.json
+const fs = require('fs');
+const IMAGES = {};
+for (const f of fs.readdirSync(__dirname).filter(f => /^images.*\.json$/.test(f))) Object.assign(IMAGES, require('./' + f));
+app.get('/img/:dir/:file', (req, res, next) => {
+  const svg = IMAGES[req.params.dir + '/' + req.params.file];
+  if (!svg) return next();
+  res.type('image/svg+xml').set('Cache-Control', 'public, max-age=86400').send(svg);
+});
 app.use(express.static(path.join(__dirname, 'public')));
 app.get('/health', (_req, res) => res.send('ok'));
 
 // ---------- Outils ----------
-const norm = s => String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')
+const norm = s => String(s).toLowerCase().replace(/œ/g, 'oe').replace(/æ/g, 'ae').normalize('NFD').replace(/[̀-ͯ]/g, '')
   .replace(/[^a-z0-9]+/g, ' ').replace(/^(le|la|les|l|the|un|une) /, '').trim();
 function lev(a, b) {
   const d = Array.from({ length: a.length + 1 }, (_, i) => [i]);
@@ -35,7 +44,7 @@ function isMatch(input, answers) {
   if (!x) return false;
   return answers.some(a => {
     const y = norm(a);
-    const tol = y.length <= 4 ? 0 : y.length <= 8 ? 1 : 2;
+    const tol = y.length <= 4 ? 0 : y.length <= 8 ? 1 : y.length <= 16 ? 2 : 3;
     return x === y || lev(x, y) <= tol;
   });
 }
@@ -51,6 +60,11 @@ function newCode() {
 
 // ---------- Salons ----------
 const rooms = new Map();
+const LIVE = () => THEMES.filter(t => Q[t.id] && Q[t.id].length);
+const DIFFS = ['normal', 'difficile', 'tout'];
+const level = q => q.d || 1;
+const pool = (themes, diff) => themes.flatMap(t => (Q[t] || []).map((q, i) => ({ t, i, q })))
+  .filter(x => diff === 'tout' || (diff === 'difficile' ? level(x.q) === 2 : level(x.q) === 1));
 
 function roomState(room) {
   const q = room.deck && room.deck[room.k];
@@ -61,7 +75,7 @@ function roomState(room) {
     hostId: room.hostId,
     phase: room.phase,
     settings: room.settings,
-    themes: THEMES.map(t => ({ id: t.id, name: t.name, count: Q[t.id].length })),
+    themes: LIVE().map(t => ({ id: t.id, name: t.name, count: Q[t.id].filter(q => room.settings.difficulty === 'tout' || level(q) === (room.settings.difficulty === 'difficile' ? 2 : 1)).length })),
     players: [...room.players.values()].map(p => ({ id: p.id, name: p.name, color: p.color, score: p.score, found: p.found })),
     q: (room.phase === 'question' || room.phase === 'reveal') && data ? {
       num: room.k + 1,
@@ -72,6 +86,11 @@ function roomState(room) {
       clues: data.c.slice(0, room.phase === 'reveal' ? data.c.length : room.shown),
       totalClues: data.c.length,
       emo: !!data.emo,
+      img: data.img || null,
+      zoom: !!data.zoom,
+      flou: !!data.flou,
+      ox: room.ox, oy: room.oy,
+      level: level(data),
       worth: 5 - room.shown,
       left: room.phase === 'question' ? Math.max(0, room.endsAt - Date.now()) : 0,
       answer: room.phase === 'reveal' ? titleCase(data.a[0]) : null
@@ -86,8 +105,31 @@ function clearTimers(room) {
 }
 
 function startGame(room) {
-  const pool = shuffle(room.settings.themes.flatMap(t => Q[t].map((_, i) => ({ t, i }))));
-  room.deck = pool.slice(0, Math.min(room.settings.n, pool.length));
+  // on évite de reposer les questions déjà vues dans ce salon tant qu'il en reste de nouvelles,
+  // et on alterne les thèmes pour que les gros thèmes (drapeaux…) n'écrasent pas les autres
+  const all = pool(room.settings.themes, room.settings.difficulty);
+  const n = Math.min(room.settings.n, all.length);
+  const key = x => x.t + ':' + x.i;
+  const fresh = all.filter(x => !room.used.has(key(x)));
+  const pick = list => {
+    const byTheme = {};
+    for (const x of shuffle([...list])) (byTheme[x.t] = byTheme[x.t] || []).push(x);
+    const out = [];
+    while (Object.keys(byTheme).length) {
+      const ts = Object.keys(byTheme), t = ts[Math.floor(Math.random() * ts.length)];
+      out.push(byTheme[t].pop());
+      if (!byTheme[t].length) delete byTheme[t];
+    }
+    return out;
+  };
+  let deck = pick(fresh).slice(0, n);
+  if (deck.length < n) {
+    for (const x of all) room.used.delete(key(x));
+    const inDeck = new Set(deck.map(key));
+    deck = deck.concat(pick(all.filter(x => !inDeck.has(key(x)))).slice(0, n - deck.length));
+  }
+  room.deck = deck.map(({ t, i }) => ({ t, i }));
+  for (const x of room.deck) room.used.add(x.t + ':' + x.i);
   room.k = -1;
   for (const p of room.players.values()) { p.score = 0; p.found = false; }
   nextQuestion(room);
@@ -100,6 +142,8 @@ function nextQuestion(room) {
   room.phase = 'question';
   room.shown = 1;
   room.firstFound = null;
+  room.ox = 20 + Math.floor(Math.random() * 61);
+  room.oy = 20 + Math.floor(Math.random() * 61);
   room.endsAt = Date.now() + Q_TIME;
   for (const p of room.players.values()) p.found = false;
   const total = Q[room.deck[room.k].t][room.deck[room.k].i].c.length;
@@ -174,7 +218,7 @@ io.on('connection', socket => {
     leave(socket);
     const room = {
       code: newCode(), isPublic: !!isPublic, hostId: socket.id, phase: 'lobby',
-      settings: { themes: THEMES.map(t => t.id), n: 10 }, players: new Map(), deck: null, k: -1, shown: 1
+      settings: { themes: ['perso', 'musique', 'film', 'repliques'].filter(t => Q[t] && Q[t].length), n: 10, difficulty: 'normal' }, players: new Map(), deck: null, k: -1, shown: 1, used: new Set()
     };
     rooms.set(room.code, room);
     join(socket, room, name);
@@ -189,15 +233,16 @@ io.on('connection', socket => {
     join(socket, room, name);
   });
 
-  socket.on('settings', ({ themes, n, isPublic } = {}) => {
+  socket.on('settings', ({ themes, n, isPublic, difficulty } = {}) => {
     const room = rooms.get(socket.data.room);
     if (!room || room.hostId !== socket.id || room.phase === 'question' || room.phase === 'reveal') return;
     if (Array.isArray(themes)) {
-      const ok = themes.filter(t => Q[t]);
+      const ok = themes.filter(t => Q[t] && Q[t].length);
       room.settings.themes = [...new Set(ok)];
     }
     if ([5, 10, 15, 20].includes(n)) room.settings.n = n;
     if (typeof isPublic === 'boolean') room.isPublic = isPublic;
+    if (DIFFS.includes(difficulty)) room.settings.difficulty = difficulty;
     broadcast(room);
   });
 
@@ -206,6 +251,7 @@ io.on('connection', socket => {
     if (!room || room.hostId !== socket.id) return;
     if (room.phase === 'question' || room.phase === 'reveal') return;
     if (!room.settings.themes.length) return socket.emit('err', 'Choisis au moins un thème.');
+    if (!pool(room.settings.themes, room.settings.difficulty).length) return socket.emit('err', 'Aucune question pour ces thèmes à ce niveau.');
     startGame(room);
   });
 
