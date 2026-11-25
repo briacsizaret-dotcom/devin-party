@@ -1,0 +1,2910 @@
+[
+ {
+  "nom": "France",
+  "a": [
+   "france"
+  ],
+  "cont": "Europe",
+  "cap": "Paris",
+  "capA": [
+   "paris"
+  ],
+  "fait": "C’est le pays le plus visité au monde.",
+  "df": 1,
+  "ds": 1,
+  "dc": 1,
+  "flag": "img/drapeaux/d-7f62cdf8529e.svg",
+  "shape": "img/pays/p-75e76faa2cec.svg"
+ },
+ {
+  "nom": "Allemagne",
+  "a": [
+   "allemagne"
+  ],
+  "cont": "Europe",
+  "cap": "Berlin",
+  "capA": [
+   "berlin"
+  ],
+  "fait": null,
+  "df": 1,
+  "ds": 1,
+  "dc": 1,
+  "flag": "img/drapeaux/d-3bb3b93263bc.svg",
+  "shape": "img/pays/p-eabd25f1bd61.svg"
+ },
+ {
+  "nom": "Espagne",
+  "a": [
+   "espagne"
+  ],
+  "cont": "Europe",
+  "cap": "Madrid",
+  "capA": [
+   "madrid"
+  ],
+  "fait": null,
+  "df": 1,
+  "ds": 1,
+  "dc": 1,
+  "flag": "img/drapeaux/d-a2351741dae2.svg",
+  "shape": "img/pays/p-996ce90e6b85.svg"
+ },
+ {
+  "nom": "Italie",
+  "a": [
+   "italie"
+  ],
+  "cont": "Europe",
+  "cap": "Rome",
+  "capA": [
+   "rome"
+  ],
+  "fait": "Il entoure complètement deux petits États indépendants.",
+  "df": 1,
+  "ds": 1,
+  "dc": 1,
+  "flag": "img/drapeaux/d-70792975eaf3.svg",
+  "shape": "img/pays/p-9f6fcc186650.svg"
+ },
+ {
+  "nom": "Royaume-Uni",
+  "a": [
+   "royaume uni",
+   "grande bretagne",
+   "uk"
+  ],
+  "cont": "Europe",
+  "cap": "Londres",
+  "capA": [
+   "londres",
+   "london"
+  ],
+  "fait": "Il réunit quatre nations, dont l’Écosse et le pays de Galles.",
+  "df": 1,
+  "ds": 1,
+  "dc": 1,
+  "flag": "img/drapeaux/d-c0dc80e4e329.svg",
+  "shape": "img/pays/p-5ff0c05cea44.svg"
+ },
+ {
+  "nom": "Portugal",
+  "a": [
+   "portugal"
+  ],
+  "cont": "Europe",
+  "cap": "Lisbonne",
+  "capA": [
+   "lisbonne"
+  ],
+  "fait": "C’est le pays de Cristiano Ronaldo.",
+  "df": 1,
+  "ds": 1,
+  "dc": 1,
+  "flag": "img/drapeaux/d-5a7ce3cb7e85.svg",
+  "shape": "img/pays/p-a8a7d1e2e011.svg"
+ },
+ {
+  "nom": "Belgique",
+  "a": [
+   "belgique"
+  ],
+  "cont": "Europe",
+  "cap": "Bruxelles",
+  "capA": [
+   "bruxelles"
+  ],
+  "fait": "Tintin et les Schtroumpfs y sont nés.",
+  "df": 1,
+  "ds": 2,
+  "dc": 1,
+  "flag": "img/drapeaux/d-cfd051a3f1ba.svg",
+  "shape": "img/pays/p-234cc719521c.svg"
+ },
+ {
+  "nom": "Pays-Bas",
+  "a": [
+   "pays bas",
+   "hollande"
+  ],
+  "cont": "Europe",
+  "cap": "Amsterdam",
+  "capA": [
+   "amsterdam"
+  ],
+  "fait": "Une grande partie du pays est située sous le niveau de la mer.",
+  "df": 1,
+  "ds": 2,
+  "dc": 1,
+  "flag": "img/drapeaux/d-46f809c0306b.svg",
+  "shape": "img/pays/p-8da31641d992.svg"
+ },
+ {
+  "nom": "Suisse",
+  "a": [
+   "suisse"
+  ],
+  "cont": "Europe",
+  "cap": "Berne",
+  "capA": [
+   "berne"
+  ],
+  "fait": "On y parle quatre langues nationales.",
+  "df": 1,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-02847162aa70.svg",
+  "shape": "img/pays/p-ad6b9f183a10.svg"
+ },
+ {
+  "nom": "Autriche",
+  "a": [
+   "autriche"
+  ],
+  "cont": "Europe",
+  "cap": "Vienne",
+  "capA": [
+   "vienne"
+  ],
+  "fait": null,
+  "df": 1,
+  "ds": 2,
+  "dc": 1,
+  "flag": "img/drapeaux/d-026264a3b672.svg",
+  "shape": "img/pays/p-6cd00f5b6970.svg"
+ },
+ {
+  "nom": "Irlande",
+  "a": [
+   "irlande"
+  ],
+  "cont": "Europe",
+  "cap": "Dublin",
+  "capA": [
+   "dublin"
+  ],
+  "fait": null,
+  "df": 1,
+  "ds": 1,
+  "dc": 1,
+  "flag": "img/drapeaux/d-eb99dfed9382.svg",
+  "shape": "img/pays/p-86b460e68fd6.svg"
+ },
+ {
+  "nom": "Luxembourg",
+  "a": [
+   "luxembourg"
+  ],
+  "cont": "Europe",
+  "cap": "Luxembourg",
+  "capA": [
+   "luxembourg"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 1,
+  "flag": "img/drapeaux/d-d72abb271d93.svg",
+  "shape": "img/pays/p-04749838bc54.svg"
+ },
+ {
+  "nom": "Danemark",
+  "a": [
+   "danemark"
+  ],
+  "cont": "Europe",
+  "cap": "Copenhague",
+  "capA": [
+   "copenhague"
+  ],
+  "fait": null,
+  "df": 1,
+  "ds": 2,
+  "dc": 1,
+  "flag": "img/drapeaux/d-4e655c39878f.svg",
+  "shape": "img/pays/p-8b681b825dc1.svg"
+ },
+ {
+  "nom": "Suède",
+  "a": [
+   "suede"
+  ],
+  "cont": "Europe",
+  "cap": "Stockholm",
+  "capA": [
+   "stockholm"
+  ],
+  "fait": "IKEA et le prix Nobel en viennent.",
+  "df": 1,
+  "ds": 2,
+  "dc": 1,
+  "flag": "img/drapeaux/d-6fe1ddab3347.svg",
+  "shape": "img/pays/p-885c05cae72b.svg"
+ },
+ {
+  "nom": "Norvège",
+  "a": [
+   "norvege"
+  ],
+  "cont": "Europe",
+  "cap": "Oslo",
+  "capA": [
+   "oslo"
+  ],
+  "fait": "Elle est célèbre pour ses fjords.",
+  "df": 1,
+  "ds": 1,
+  "dc": 1,
+  "flag": "img/drapeaux/d-6d2b3e09e1d5.svg",
+  "shape": "img/pays/p-5dc19f3839f0.svg"
+ },
+ {
+  "nom": "Finlande",
+  "a": [
+   "finlande"
+  ],
+  "cont": "Europe",
+  "cap": "Helsinki",
+  "capA": [
+   "helsinki"
+  ],
+  "fait": null,
+  "df": 1,
+  "ds": 2,
+  "dc": 1,
+  "flag": "img/drapeaux/d-13b7d8ab2408.svg",
+  "shape": "img/pays/p-c79dc712aa81.svg"
+ },
+ {
+  "nom": "Islande",
+  "a": [
+   "islande"
+  ],
+  "cont": "Europe",
+  "cap": "Reykjavik",
+  "capA": [
+   "reykjavik"
+  ],
+  "fait": "On y trouve des geysers et le volcan Eyjafjallajökull.",
+  "df": 2,
+  "ds": 1,
+  "dc": 2,
+  "flag": "img/drapeaux/d-35923345899f.svg",
+  "shape": "img/pays/p-2838450f08d3.svg"
+ },
+ {
+  "nom": "Pologne",
+  "a": [
+   "pologne"
+  ],
+  "cont": "Europe",
+  "cap": "Varsovie",
+  "capA": [
+   "varsovie"
+  ],
+  "fait": null,
+  "df": 1,
+  "ds": 2,
+  "dc": 1,
+  "flag": "img/drapeaux/d-326047832781.svg",
+  "shape": "img/pays/p-118a08efb3e8.svg"
+ },
+ {
+  "nom": "Tchéquie",
+  "a": [
+   "tchequie",
+   "republique tcheque"
+  ],
+  "cont": "Europe",
+  "cap": "Prague",
+  "capA": [
+   "prague"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 1,
+  "flag": "img/drapeaux/d-b3b3a7fc5217.svg",
+  "shape": "img/pays/p-6e7a6ed57310.svg"
+ },
+ {
+  "nom": "Slovaquie",
+  "a": [
+   "slovaquie"
+  ],
+  "cont": "Europe",
+  "cap": "Bratislava",
+  "capA": [
+   "bratislava"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-9c196cf025c3.svg",
+  "shape": "img/pays/p-4f8fcf565cf2.svg"
+ },
+ {
+  "nom": "Hongrie",
+  "a": [
+   "hongrie"
+  ],
+  "cont": "Europe",
+  "cap": "Budapest",
+  "capA": [
+   "budapest"
+  ],
+  "fait": "Le Rubik’s Cube y a été inventé en 1974.",
+  "df": 2,
+  "ds": 2,
+  "dc": 1,
+  "flag": "img/drapeaux/d-31fb469fe686.svg",
+  "shape": "img/pays/p-f0fa4a8119b7.svg"
+ },
+ {
+  "nom": "Roumanie",
+  "a": [
+   "roumanie"
+  ],
+  "cont": "Europe",
+  "cap": "Bucarest",
+  "capA": [
+   "bucarest"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-82a3572815a8.svg",
+  "shape": "img/pays/p-99f69b618658.svg"
+ },
+ {
+  "nom": "Bulgarie",
+  "a": [
+   "bulgarie"
+  ],
+  "cont": "Europe",
+  "cap": "Sofia",
+  "capA": [
+   "sofia"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-352e2d63792f.svg",
+  "shape": "img/pays/p-2ab8af22a5be.svg"
+ },
+ {
+  "nom": "Grèce",
+  "a": [
+   "grece"
+  ],
+  "cont": "Europe",
+  "cap": "Athènes",
+  "capA": [
+   "athenes"
+  ],
+  "fait": "Les Jeux olympiques antiques y sont nés.",
+  "df": 1,
+  "ds": 1,
+  "dc": 1,
+  "flag": "img/drapeaux/d-281da17a5484.svg",
+  "shape": "img/pays/p-375f1cbd2bc2.svg"
+ },
+ {
+  "nom": "Croatie",
+  "a": [
+   "croatie"
+  ],
+  "cont": "Europe",
+  "cap": "Zagreb",
+  "capA": [
+   "zagreb"
+  ],
+  "fait": "Il a affronté la France en finale de la Coupe du monde 2018.",
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-b115806b4c96.svg",
+  "shape": "img/pays/p-9d7541f55953.svg"
+ },
+ {
+  "nom": "Slovénie",
+  "a": [
+   "slovenie"
+  ],
+  "cont": "Europe",
+  "cap": "Ljubljana",
+  "capA": [
+   "ljubljana"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-af4621927d3e.svg",
+  "shape": "img/pays/p-97904be26731.svg"
+ },
+ {
+  "nom": "Serbie",
+  "a": [
+   "serbie"
+  ],
+  "cont": "Europe",
+  "cap": "Belgrade",
+  "capA": [
+   "belgrade"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 0,
+  "dc": 2,
+  "flag": "img/drapeaux/d-7fcc00b389c1.svg"
+ },
+ {
+  "nom": "Bosnie-Herzégovine",
+  "a": [
+   "bosnie herzegovine",
+   "bosnie"
+  ],
+  "cont": "Europe",
+  "cap": "Sarajevo",
+  "capA": [
+   "sarajevo"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-d12825e08b0f.svg",
+  "shape": "img/pays/p-88c51dbcc273.svg"
+ },
+ {
+  "nom": "Monténégro",
+  "a": [
+   "montenegro"
+  ],
+  "cont": "Europe",
+  "cap": "Podgorica",
+  "capA": [
+   "podgorica"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-f19702ab8e9b.svg",
+  "shape": "img/pays/p-9720cf6d25cb.svg"
+ },
+ {
+  "nom": "Macédoine du Nord",
+  "a": [
+   "macedoine du nord",
+   "macedoine"
+  ],
+  "cont": "Europe",
+  "cap": "Skopje",
+  "capA": [
+   "skopje"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-fb9ca546abfb.svg",
+  "shape": "img/pays/p-7c824a11cbfa.svg"
+ },
+ {
+  "nom": "Albanie",
+  "a": [
+   "albanie"
+  ],
+  "cont": "Europe",
+  "cap": "Tirana",
+  "capA": [
+   "tirana"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-31abad7259b8.svg",
+  "shape": "img/pays/p-2fae11b0f647.svg"
+ },
+ {
+  "nom": "Ukraine",
+  "a": [
+   "ukraine"
+  ],
+  "cont": "Europe",
+  "cap": "Kiev",
+  "capA": [
+   "kiev",
+   "kyiv"
+  ],
+  "fait": null,
+  "df": 1,
+  "ds": 2,
+  "dc": 1,
+  "flag": "img/drapeaux/d-924c786897f3.svg",
+  "shape": "img/pays/p-c48e4b6c077d.svg"
+ },
+ {
+  "nom": "Biélorussie",
+  "a": [
+   "bielorussie",
+   "belarus"
+  ],
+  "cont": "Europe",
+  "cap": "Minsk",
+  "capA": [
+   "minsk"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-e0b4569fa806.svg",
+  "shape": "img/pays/p-a6d6ba374377.svg"
+ },
+ {
+  "nom": "Moldavie",
+  "a": [
+   "moldavie"
+  ],
+  "cont": "Europe",
+  "cap": "Chisinau",
+  "capA": [
+   "chisinau"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-43ae7c0cceac.svg",
+  "shape": "img/pays/p-17f16f16c738.svg"
+ },
+ {
+  "nom": "Lituanie",
+  "a": [
+   "lituanie"
+  ],
+  "cont": "Europe",
+  "cap": "Vilnius",
+  "capA": [
+   "vilnius"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-d408d89f7d26.svg",
+  "shape": "img/pays/p-004c17749463.svg"
+ },
+ {
+  "nom": "Lettonie",
+  "a": [
+   "lettonie"
+  ],
+  "cont": "Europe",
+  "cap": "Riga",
+  "capA": [
+   "riga"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-f20296b6abbe.svg",
+  "shape": "img/pays/p-4b0564d86c92.svg"
+ },
+ {
+  "nom": "Estonie",
+  "a": [
+   "estonie"
+  ],
+  "cont": "Europe",
+  "cap": "Tallinn",
+  "capA": [
+   "tallinn"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-d888d33b51c7.svg",
+  "shape": "img/pays/p-241aac5400ca.svg"
+ },
+ {
+  "nom": "Russie",
+  "a": [
+   "russie"
+  ],
+  "cont": "Europe",
+  "cap": "Moscou",
+  "capA": [
+   "moscou"
+  ],
+  "fait": "C’est le plus grand pays du monde.",
+  "df": 1,
+  "ds": 1,
+  "dc": 1,
+  "flag": "img/drapeaux/d-a84855a2ebd3.svg",
+  "shape": "img/pays/p-647d435a21bd.svg"
+ },
+ {
+  "nom": "Malte",
+  "a": [
+   "malte"
+  ],
+  "cont": "Europe",
+  "cap": "La Valette",
+  "capA": [
+   "la valette",
+   "valette",
+   "valletta"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 0,
+  "dc": 2,
+  "flag": "img/drapeaux/d-f198b6048dde.svg"
+ },
+ {
+  "nom": "Chypre",
+  "a": [
+   "chypre"
+  ],
+  "cont": "Europe",
+  "cap": "Nicosie",
+  "capA": [
+   "nicosie"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 0,
+  "dc": 2,
+  "flag": "img/drapeaux/d-0f4fecf77684.svg"
+ },
+ {
+  "nom": "Monaco",
+  "a": [
+   "monaco"
+  ],
+  "cont": "Europe",
+  "cap": "Monaco",
+  "capA": [
+   "monaco"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 0,
+  "dc": 0,
+  "flag": "img/drapeaux/d-69c81ad6a137.svg"
+ },
+ {
+  "nom": "Andorre",
+  "a": [
+   "andorre"
+  ],
+  "cont": "Europe",
+  "cap": "Andorre-la-Vieille",
+  "capA": [
+   "andorre la vieille"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 0,
+  "dc": 2,
+  "flag": "img/drapeaux/d-eec375bbf33d.svg"
+ },
+ {
+  "nom": "Liechtenstein",
+  "a": [
+   "liechtenstein"
+  ],
+  "cont": "Europe",
+  "cap": "Vaduz",
+  "capA": [
+   "vaduz"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 0,
+  "dc": 2,
+  "flag": "img/drapeaux/d-361086da5a48.svg"
+ },
+ {
+  "nom": "Saint-Marin",
+  "a": [
+   "saint marin"
+  ],
+  "cont": "Europe",
+  "cap": "Saint-Marin",
+  "capA": [
+   "saint marin"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 0,
+  "dc": 0,
+  "flag": "img/drapeaux/d-7edc6533e9af.svg"
+ },
+ {
+  "nom": "Vatican",
+  "a": [
+   "vatican"
+  ],
+  "cont": "Europe",
+  "cap": "Vatican",
+  "capA": [
+   "vatican"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 0,
+  "dc": 0,
+  "flag": "img/drapeaux/d-997d87db0932.svg"
+ },
+ {
+  "nom": "Turquie",
+  "a": [
+   "turquie"
+  ],
+  "cont": "Europe et Asie",
+  "cap": "Ankara",
+  "capA": [
+   "ankara"
+  ],
+  "fait": "Sa plus grande ville est à cheval entre l’Europe et l’Asie.",
+  "df": 1,
+  "ds": 2,
+  "dc": 1,
+  "flag": "img/drapeaux/d-aef8ccbb5d0d.svg",
+  "shape": "img/pays/p-aa927b62bc74.svg"
+ },
+ {
+  "nom": "Géorgie",
+  "a": [
+   "georgie"
+  ],
+  "cont": "Asie",
+  "cap": "Tbilissi",
+  "capA": [
+   "tbilissi",
+   "tbilisi"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-0b1d76ddf064.svg",
+  "shape": "img/pays/p-5637627fc59f.svg"
+ },
+ {
+  "nom": "Arménie",
+  "a": [
+   "armenie"
+  ],
+  "cont": "Asie",
+  "cap": "Erevan",
+  "capA": [
+   "erevan"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-963e86c24566.svg",
+  "shape": "img/pays/p-24a92ad2b6c0.svg"
+ },
+ {
+  "nom": "Azerbaïdjan",
+  "a": [
+   "azerbaidjan"
+  ],
+  "cont": "Asie",
+  "cap": "Bakou",
+  "capA": [
+   "bakou"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-b98f51d0be75.svg",
+  "shape": "img/pays/p-5d80e8bd237b.svg"
+ },
+ {
+  "nom": "Chine",
+  "a": [
+   "chine"
+  ],
+  "cont": "Asie",
+  "cap": "Pékin",
+  "capA": [
+   "pekin",
+   "beijing"
+  ],
+  "fait": "Sa Grande Muraille s’étend sur des milliers de kilomètres.",
+  "df": 1,
+  "ds": 1,
+  "dc": 1,
+  "flag": "img/drapeaux/d-0ce700669c48.svg",
+  "shape": "img/pays/p-2fd7ce129bb1.svg"
+ },
+ {
+  "nom": "Japon",
+  "a": [
+   "japon"
+  ],
+  "cont": "Asie",
+  "cap": "Tokyo",
+  "capA": [
+   "tokyo"
+  ],
+  "fait": "Le mont Fuji est son point culminant.",
+  "df": 1,
+  "ds": 1,
+  "dc": 1,
+  "flag": "img/drapeaux/d-e0fabd7bfde3.svg",
+  "shape": "img/pays/p-9628e152ea9b.svg"
+ },
+ {
+  "nom": "Corée du Sud",
+  "a": [
+   "coree du sud",
+   "coree"
+  ],
+  "cont": "Asie",
+  "cap": "Séoul",
+  "capA": [
+   "seoul"
+  ],
+  "fait": "C’est le pays de la K-pop et de Samsung.",
+  "df": 1,
+  "ds": 2,
+  "dc": 1,
+  "flag": "img/drapeaux/d-b3ca7d602e58.svg",
+  "shape": "img/pays/p-1cbd8e9f066e.svg"
+ },
+ {
+  "nom": "Corée du Nord",
+  "a": [
+   "coree du nord"
+  ],
+  "cont": "Asie",
+  "cap": "Pyongyang",
+  "capA": [
+   "pyongyang"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-4cd3fe91d97c.svg",
+  "shape": "img/pays/p-7bfe5a6a339d.svg"
+ },
+ {
+  "nom": "Mongolie",
+  "a": [
+   "mongolie"
+  ],
+  "cont": "Asie",
+  "cap": "Oulan-Bator",
+  "capA": [
+   "oulan bator",
+   "oulan bator",
+   "ulaanbaatar"
+  ],
+  "fait": "Gengis Khan y est né.",
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-2b7ac92e533b.svg",
+  "shape": "img/pays/p-ca7095695d1e.svg"
+ },
+ {
+  "nom": "Inde",
+  "a": [
+   "inde"
+  ],
+  "cont": "Asie",
+  "cap": "New Delhi",
+  "capA": [
+   "new delhi",
+   "delhi"
+  ],
+  "fait": "C’est le pays le plus peuplé du monde depuis 2023.",
+  "df": 1,
+  "ds": 1,
+  "dc": 1,
+  "flag": "img/drapeaux/d-67eb7f56d912.svg",
+  "shape": "img/pays/p-daa6e8faf8a0.svg"
+ },
+ {
+  "nom": "Pakistan",
+  "a": [
+   "pakistan"
+  ],
+  "cont": "Asie",
+  "cap": "Islamabad",
+  "capA": [
+   "islamabad"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-5a85b0f46850.svg",
+  "shape": "img/pays/p-905f84c4faaa.svg"
+ },
+ {
+  "nom": "Bangladesh",
+  "a": [
+   "bangladesh"
+  ],
+  "cont": "Asie",
+  "cap": "Dacca",
+  "capA": [
+   "dacca",
+   "dhaka"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-575470c97bb9.svg",
+  "shape": "img/pays/p-57b8eaca0ced.svg"
+ },
+ {
+  "nom": "Népal",
+  "a": [
+   "nepal"
+  ],
+  "cont": "Asie",
+  "cap": "Katmandou",
+  "capA": [
+   "katmandou"
+  ],
+  "fait": "Il partage le sommet de l’Everest avec la Chine.",
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-704599615714.svg",
+  "shape": "img/pays/p-c35d7e54e5c1.svg"
+ },
+ {
+  "nom": "Bhoutan",
+  "a": [
+   "bhoutan",
+   "bhutan"
+  ],
+  "cont": "Asie",
+  "cap": "Thimphou",
+  "capA": [
+   "thimphou"
+  ],
+  "fait": "Il mesure son « bonheur national brut ».",
+  "df": 2,
+  "ds": 0,
+  "dc": 2,
+  "flag": "img/drapeaux/d-3b2ae4088d22.svg"
+ },
+ {
+  "nom": "Afghanistan",
+  "a": [
+   "afghanistan"
+  ],
+  "cont": "Asie",
+  "cap": "Kaboul",
+  "capA": [
+   "kaboul"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-56bb9c79d830.svg",
+  "shape": "img/pays/p-adaabe26df45.svg"
+ },
+ {
+  "nom": "Iran",
+  "a": [
+   "iran"
+  ],
+  "cont": "Asie",
+  "cap": "Téhéran",
+  "capA": [
+   "teheran"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 1,
+  "flag": "img/drapeaux/d-98a6a866142c.svg",
+  "shape": "img/pays/p-93604aa8ab87.svg"
+ },
+ {
+  "nom": "Irak",
+  "a": [
+   "irak",
+   "iraq"
+  ],
+  "cont": "Asie",
+  "cap": "Bagdad",
+  "capA": [
+   "bagdad"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-ad8c7a8b75dc.svg",
+  "shape": "img/pays/p-ed9eb659a3eb.svg"
+ },
+ {
+  "nom": "Syrie",
+  "a": [
+   "syrie"
+  ],
+  "cont": "Asie",
+  "cap": "Damas",
+  "capA": [
+   "damas"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-071bc4844f18.svg",
+  "shape": "img/pays/p-4fb58a970a39.svg"
+ },
+ {
+  "nom": "Liban",
+  "a": [
+   "liban"
+  ],
+  "cont": "Asie",
+  "cap": "Beyrouth",
+  "capA": [
+   "beyrouth"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 0,
+  "dc": 2,
+  "flag": "img/drapeaux/d-409f84e7feac.svg"
+ },
+ {
+  "nom": "Jordanie",
+  "a": [
+   "jordanie"
+  ],
+  "cont": "Asie",
+  "cap": "Amman",
+  "capA": [
+   "amman"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-e8848d6436b9.svg",
+  "shape": "img/pays/p-6d4e538519df.svg"
+ },
+ {
+  "nom": "Arabie saoudite",
+  "a": [
+   "arabie saoudite"
+  ],
+  "cont": "Asie",
+  "cap": "Riyad",
+  "capA": [
+   "riyad"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-42c143620a4d.svg",
+  "shape": "img/pays/p-fcedfd6022c6.svg"
+ },
+ {
+  "nom": "Émirats arabes unis",
+  "a": [
+   "emirats arabes unis",
+   "emirats"
+  ],
+  "cont": "Asie",
+  "cap": "Abou Dabi",
+  "capA": [
+   "abou dabi",
+   "abu dhabi"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 0,
+  "dc": 2,
+  "flag": "img/drapeaux/d-6f89e2fa2165.svg"
+ },
+ {
+  "nom": "Qatar",
+  "a": [
+   "qatar"
+  ],
+  "cont": "Asie",
+  "cap": "Doha",
+  "capA": [
+   "doha"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 0,
+  "dc": 2,
+  "flag": "img/drapeaux/d-c27ffe1672af.svg"
+ },
+ {
+  "nom": "Koweït",
+  "a": [
+   "koweit"
+  ],
+  "cont": "Asie",
+  "cap": "Koweït",
+  "capA": [
+   "koweit"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 0,
+  "dc": 2,
+  "flag": "img/drapeaux/d-792646c51090.svg"
+ },
+ {
+  "nom": "Oman",
+  "a": [
+   "oman"
+  ],
+  "cont": "Asie",
+  "cap": "Mascate",
+  "capA": [
+   "mascate"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-7f1ce1ff5914.svg",
+  "shape": "img/pays/p-aa61177c2f6f.svg"
+ },
+ {
+  "nom": "Yémen",
+  "a": [
+   "yemen"
+  ],
+  "cont": "Asie",
+  "cap": "Sanaa",
+  "capA": [
+   "sanaa"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-44469bc917f3.svg",
+  "shape": "img/pays/p-ed61ea1766bb.svg"
+ },
+ {
+  "nom": "Kazakhstan",
+  "a": [
+   "kazakhstan"
+  ],
+  "cont": "Asie",
+  "cap": "Astana",
+  "capA": [
+   "astana"
+  ],
+  "fait": "C’est le plus grand pays du monde sans accès à la mer.",
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-b7ad0d0f8cbf.svg",
+  "shape": "img/pays/p-dad13904e7db.svg"
+ },
+ {
+  "nom": "Ouzbékistan",
+  "a": [
+   "ouzbekistan"
+  ],
+  "cont": "Asie",
+  "cap": "Tachkent",
+  "capA": [
+   "tachkent"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-0824648d6846.svg",
+  "shape": "img/pays/p-ae1d9cbfe98b.svg"
+ },
+ {
+  "nom": "Turkménistan",
+  "a": [
+   "turkmenistan"
+  ],
+  "cont": "Asie",
+  "cap": "Achgabat",
+  "capA": [
+   "achgabat"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-12e6c76bb504.svg",
+  "shape": "img/pays/p-96020ccc2e58.svg"
+ },
+ {
+  "nom": "Kirghizistan",
+  "a": [
+   "kirghizistan"
+  ],
+  "cont": "Asie",
+  "cap": "Bichkek",
+  "capA": [
+   "bichkek"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-bcd02e72247f.svg",
+  "shape": "img/pays/p-b33928ae2d12.svg"
+ },
+ {
+  "nom": "Tadjikistan",
+  "a": [
+   "tadjikistan"
+  ],
+  "cont": "Asie",
+  "cap": "Douchanbé",
+  "capA": [
+   "douchanbe"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-275b7c5a5539.svg",
+  "shape": "img/pays/p-24a98fd8a41a.svg"
+ },
+ {
+  "nom": "Thaïlande",
+  "a": [
+   "thailande"
+  ],
+  "cont": "Asie",
+  "cap": "Bangkok",
+  "capA": [
+   "bangkok"
+  ],
+  "fait": "Son ancien nom est le Siam.",
+  "df": 2,
+  "ds": 2,
+  "dc": 1,
+  "flag": "img/drapeaux/d-e83d499b7801.svg",
+  "shape": "img/pays/p-eeca88bf9cb9.svg"
+ },
+ {
+  "nom": "Vietnam",
+  "a": [
+   "vietnam",
+   "viet nam"
+  ],
+  "cont": "Asie",
+  "cap": "Hanoï",
+  "capA": [
+   "hanoi"
+  ],
+  "fait": "Sa forme rappelle un S étiré le long de la mer.",
+  "df": 1,
+  "ds": 1,
+  "dc": 2,
+  "flag": "img/drapeaux/d-cb3ba0024db9.svg",
+  "shape": "img/pays/p-1fea58b8f29d.svg"
+ },
+ {
+  "nom": "Laos",
+  "a": [
+   "laos"
+  ],
+  "cont": "Asie",
+  "cap": "Vientiane",
+  "capA": [
+   "vientiane"
+  ],
+  "fait": "C’est le seul pays d’Asie du Sud-Est sans accès à la mer.",
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-e1902df18c78.svg",
+  "shape": "img/pays/p-14ea8a482030.svg"
+ },
+ {
+  "nom": "Cambodge",
+  "a": [
+   "cambodge"
+  ],
+  "cont": "Asie",
+  "cap": "Phnom Penh",
+  "capA": [
+   "phnom penh"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-06fa134329c2.svg",
+  "shape": "img/pays/p-be9ef8453005.svg"
+ },
+ {
+  "nom": "Birmanie",
+  "a": [
+   "birmanie",
+   "myanmar"
+  ],
+  "cont": "Asie",
+  "cap": "Naypyidaw",
+  "capA": [
+   "naypyidaw",
+   "naypyitaw"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-d99ec761fa89.svg",
+  "shape": "img/pays/p-702146cd4fb5.svg"
+ },
+ {
+  "nom": "Malaisie",
+  "a": [
+   "malaisie"
+  ],
+  "cont": "Asie",
+  "cap": "Kuala Lumpur",
+  "capA": [
+   "kuala lumpur"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 0,
+  "dc": 2,
+  "flag": "img/drapeaux/d-5bd2b1e5bc72.svg"
+ },
+ {
+  "nom": "Singapour",
+  "a": [
+   "singapour"
+  ],
+  "cont": "Asie",
+  "cap": "Singapour",
+  "capA": [
+   "singapour"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 0,
+  "dc": 0,
+  "flag": "img/drapeaux/d-c8005313c4a3.svg"
+ },
+ {
+  "nom": "Indonésie",
+  "a": [
+   "indonesie"
+  ],
+  "cont": "Asie",
+  "cap": "Jakarta",
+  "capA": [
+   "jakarta"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 0,
+  "dc": 2,
+  "flag": "img/drapeaux/d-e209e7b57283.svg"
+ },
+ {
+  "nom": "Philippines",
+  "a": [
+   "philippines"
+  ],
+  "cont": "Asie",
+  "cap": "Manille",
+  "capA": [
+   "manille"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 0,
+  "dc": 2,
+  "flag": "img/drapeaux/d-b1d4357e3e97.svg"
+ },
+ {
+  "nom": "Maroc",
+  "a": [
+   "maroc"
+  ],
+  "cont": "Afrique",
+  "cap": "Rabat",
+  "capA": [
+   "rabat"
+  ],
+  "fait": "Marrakech et Fès en sont des villes célèbres.",
+  "df": 1,
+  "ds": 0,
+  "dc": 1,
+  "flag": "img/drapeaux/d-52e9baeeb352.svg"
+ },
+ {
+  "nom": "Algérie",
+  "a": [
+   "algerie"
+  ],
+  "cont": "Afrique",
+  "cap": "Alger",
+  "capA": [
+   "alger"
+  ],
+  "fait": null,
+  "df": 1,
+  "ds": 2,
+  "dc": 1,
+  "flag": "img/drapeaux/d-eef729927120.svg",
+  "shape": "img/pays/p-5f9c77d1c495.svg"
+ },
+ {
+  "nom": "Tunisie",
+  "a": [
+   "tunisie"
+  ],
+  "cont": "Afrique",
+  "cap": "Tunis",
+  "capA": [
+   "tunis"
+  ],
+  "fait": null,
+  "df": 1,
+  "ds": 2,
+  "dc": 1,
+  "flag": "img/drapeaux/d-53649e816417.svg",
+  "shape": "img/pays/p-acf6458c226a.svg"
+ },
+ {
+  "nom": "Libye",
+  "a": [
+   "libye"
+  ],
+  "cont": "Afrique",
+  "cap": "Tripoli",
+  "capA": [
+   "tripoli"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-12d200637c8f.svg",
+  "shape": "img/pays/p-1604d1f73d2a.svg"
+ },
+ {
+  "nom": "Égypte",
+  "a": [
+   "egypte"
+  ],
+  "cont": "Afrique",
+  "cap": "Le Caire",
+  "capA": [
+   "le caire",
+   "caire"
+  ],
+  "fait": "Le Nil le traverse du sud au nord.",
+  "df": 1,
+  "ds": 1,
+  "dc": 1,
+  "flag": "img/drapeaux/d-fcef9b204f7e.svg",
+  "shape": "img/pays/p-62a7a7493369.svg"
+ },
+ {
+  "nom": "Soudan",
+  "a": [
+   "soudan"
+  ],
+  "cont": "Afrique",
+  "cap": "Khartoum",
+  "capA": [
+   "khartoum"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-85503deb4d45.svg",
+  "shape": "img/pays/p-57fc0c64e35f.svg"
+ },
+ {
+  "nom": "Soudan du Sud",
+  "a": [
+   "soudan du sud"
+  ],
+  "cont": "Afrique",
+  "cap": "Djouba",
+  "capA": [
+   "djouba",
+   "juba"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-f1be25495d39.svg",
+  "shape": "img/pays/p-15f18c2dc1ca.svg"
+ },
+ {
+  "nom": "Éthiopie",
+  "a": [
+   "ethiopie"
+  ],
+  "cont": "Afrique",
+  "cap": "Addis-Abeba",
+  "capA": [
+   "addis abeba"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-2505def0b89b.svg",
+  "shape": "img/pays/p-4ce376f47414.svg"
+ },
+ {
+  "nom": "Érythrée",
+  "a": [
+   "erythree"
+  ],
+  "cont": "Afrique",
+  "cap": "Asmara",
+  "capA": [
+   "asmara"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-45f77d4dbaad.svg",
+  "shape": "img/pays/p-21998a6b9d56.svg"
+ },
+ {
+  "nom": "Djibouti",
+  "a": [
+   "djibouti"
+  ],
+  "cont": "Afrique",
+  "cap": "Djibouti",
+  "capA": [
+   "djibouti"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 0,
+  "flag": "img/drapeaux/d-bd271f460cd6.svg",
+  "shape": "img/pays/p-1673871ba943.svg"
+ },
+ {
+  "nom": "Kenya",
+  "a": [
+   "kenya"
+  ],
+  "cont": "Afrique",
+  "cap": "Nairobi",
+  "capA": [
+   "nairobi"
+  ],
+  "fait": "Ses coureurs dominent souvent le marathon.",
+  "df": 2,
+  "ds": 2,
+  "dc": 1,
+  "flag": "img/drapeaux/d-1ea3adba0650.svg",
+  "shape": "img/pays/p-003a97ae5869.svg"
+ },
+ {
+  "nom": "Ouganda",
+  "a": [
+   "ouganda"
+  ],
+  "cont": "Afrique",
+  "cap": "Kampala",
+  "capA": [
+   "kampala"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-604d5a5a90c2.svg",
+  "shape": "img/pays/p-d1e09b199006.svg"
+ },
+ {
+  "nom": "Rwanda",
+  "a": [
+   "rwanda"
+  ],
+  "cont": "Afrique",
+  "cap": "Kigali",
+  "capA": [
+   "kigali"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-59b5a4848d7a.svg",
+  "shape": "img/pays/p-09a343cc4f92.svg"
+ },
+ {
+  "nom": "Burundi",
+  "a": [
+   "burundi"
+  ],
+  "cont": "Afrique",
+  "cap": "Gitega",
+  "capA": [
+   "gitega"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-ca2f0df2a9f3.svg",
+  "shape": "img/pays/p-65c928b23251.svg"
+ },
+ {
+  "nom": "Tanzanie",
+  "a": [
+   "tanzanie"
+  ],
+  "cont": "Afrique",
+  "cap": "Dodoma",
+  "capA": [
+   "dodoma"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-d7080c981d17.svg",
+  "shape": "img/pays/p-768484f78b58.svg"
+ },
+ {
+  "nom": "RD Congo",
+  "a": [
+   "rd congo",
+   "republique democratique du congo",
+   "rdc",
+   "congo"
+  ],
+  "cont": "Afrique",
+  "cap": "Kinshasa",
+  "capA": [
+   "kinshasa"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-2c2dd3229d72.svg",
+  "shape": "img/pays/p-9a4e6468969a.svg"
+ },
+ {
+  "nom": "Congo",
+  "a": [
+   "congo",
+   "republique du congo",
+   "congo brazzaville"
+  ],
+  "cont": "Afrique",
+  "cap": "Brazzaville",
+  "capA": [
+   "brazzaville"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-53c26d6d51e9.svg",
+  "shape": "img/pays/p-c76273bbe512.svg"
+ },
+ {
+  "nom": "Gabon",
+  "a": [
+   "gabon"
+  ],
+  "cont": "Afrique",
+  "cap": "Libreville",
+  "capA": [
+   "libreville"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-d590fd6c1201.svg",
+  "shape": "img/pays/p-d2678b6c0736.svg"
+ },
+ {
+  "nom": "Cameroun",
+  "a": [
+   "cameroun"
+  ],
+  "cont": "Afrique",
+  "cap": "Yaoundé",
+  "capA": [
+   "yaounde"
+  ],
+  "fait": null,
+  "df": 1,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-52e6a2a47db9.svg",
+  "shape": "img/pays/p-a85ffb1cf288.svg"
+ },
+ {
+  "nom": "Nigeria",
+  "a": [
+   "nigeria"
+  ],
+  "cont": "Afrique",
+  "cap": "Abuja",
+  "capA": [
+   "abuja"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-49394f21dc79.svg",
+  "shape": "img/pays/p-271644f8a1c6.svg"
+ },
+ {
+  "nom": "Ghana",
+  "a": [
+   "ghana"
+  ],
+  "cont": "Afrique",
+  "cap": "Accra",
+  "capA": [
+   "accra"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-07ba19e6b736.svg",
+  "shape": "img/pays/p-9eec9ba53583.svg"
+ },
+ {
+  "nom": "Côte d’Ivoire",
+  "a": [
+   "cote d ivoire",
+   "cote d ivoire"
+  ],
+  "cont": "Afrique",
+  "cap": "Yamoussoukro",
+  "capA": [
+   "yamoussoukro"
+  ],
+  "fait": null,
+  "df": 1,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-23dd5f017859.svg",
+  "shape": "img/pays/p-33df8171787f.svg"
+ },
+ {
+  "nom": "Sénégal",
+  "a": [
+   "senegal"
+  ],
+  "cont": "Afrique",
+  "cap": "Dakar",
+  "capA": [
+   "dakar"
+  ],
+  "fait": "Son équipe de football est surnommée les Lions de la Téranga.",
+  "df": 1,
+  "ds": 2,
+  "dc": 1,
+  "flag": "img/drapeaux/d-ebed0df0a996.svg",
+  "shape": "img/pays/p-a3fa5159ac53.svg"
+ },
+ {
+  "nom": "Mali",
+  "a": [
+   "mali"
+  ],
+  "cont": "Afrique",
+  "cap": "Bamako",
+  "capA": [
+   "bamako"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-102d9f05d000.svg",
+  "shape": "img/pays/p-83c2f473c9fa.svg"
+ },
+ {
+  "nom": "Burkina Faso",
+  "a": [
+   "burkina faso"
+  ],
+  "cont": "Afrique",
+  "cap": "Ouagadougou",
+  "capA": [
+   "ouagadougou"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-5a4ee7e69150.svg",
+  "shape": "img/pays/p-15f4f2750e3f.svg"
+ },
+ {
+  "nom": "Niger",
+  "a": [
+   "niger"
+  ],
+  "cont": "Afrique",
+  "cap": "Niamey",
+  "capA": [
+   "niamey"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-7b0d09893831.svg",
+  "shape": "img/pays/p-7e21c0a064e3.svg"
+ },
+ {
+  "nom": "Tchad",
+  "a": [
+   "tchad"
+  ],
+  "cont": "Afrique",
+  "cap": "N’Djaména",
+  "capA": [
+   "n djamena",
+   "ndjamena"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-c54f95b29c4f.svg",
+  "shape": "img/pays/p-6ab6ee808c41.svg"
+ },
+ {
+  "nom": "Mauritanie",
+  "a": [
+   "mauritanie"
+  ],
+  "cont": "Afrique",
+  "cap": "Nouakchott",
+  "capA": [
+   "nouakchott"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-825bd3ccdf7c.svg",
+  "shape": "img/pays/p-cc0670ac4cdf.svg"
+ },
+ {
+  "nom": "Guinée",
+  "a": [
+   "guinee"
+  ],
+  "cont": "Afrique",
+  "cap": "Conakry",
+  "capA": [
+   "conakry"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-151347d3e319.svg",
+  "shape": "img/pays/p-824e2970a2d2.svg"
+ },
+ {
+  "nom": "Bénin",
+  "a": [
+   "benin"
+  ],
+  "cont": "Afrique",
+  "cap": "Porto-Novo",
+  "capA": [
+   "porto novo"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-2b888b135013.svg",
+  "shape": "img/pays/p-b720d102c9cf.svg"
+ },
+ {
+  "nom": "Togo",
+  "a": [
+   "togo"
+  ],
+  "cont": "Afrique",
+  "cap": "Lomé",
+  "capA": [
+   "lome"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-d2fff69d995e.svg",
+  "shape": "img/pays/p-93d65c2d63d9.svg"
+ },
+ {
+  "nom": "Liberia",
+  "a": [
+   "liberia"
+  ],
+  "cont": "Afrique",
+  "cap": "Monrovia",
+  "capA": [
+   "monrovia"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-24a9afbef009.svg",
+  "shape": "img/pays/p-a6dc9a073dc5.svg"
+ },
+ {
+  "nom": "Sierra Leone",
+  "a": [
+   "sierra leone"
+  ],
+  "cont": "Afrique",
+  "cap": "Freetown",
+  "capA": [
+   "freetown"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-10fe009ab0e0.svg",
+  "shape": "img/pays/p-f17858ebb0e6.svg"
+ },
+ {
+  "nom": "Gambie",
+  "a": [
+   "gambie"
+  ],
+  "cont": "Afrique",
+  "cap": "Banjul",
+  "capA": [
+   "banjul"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 0,
+  "dc": 2,
+  "flag": "img/drapeaux/d-bbee466afbfe.svg"
+ },
+ {
+  "nom": "Centrafrique",
+  "a": [
+   "centrafrique",
+   "republique centrafricaine"
+  ],
+  "cont": "Afrique",
+  "cap": "Bangui",
+  "capA": [
+   "bangui"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-edebe93e9de5.svg",
+  "shape": "img/pays/p-e4050f020f94.svg"
+ },
+ {
+  "nom": "Angola",
+  "a": [
+   "angola"
+  ],
+  "cont": "Afrique",
+  "cap": "Luanda",
+  "capA": [
+   "luanda"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-9977aa5623fc.svg",
+  "shape": "img/pays/p-b1ce5874b126.svg"
+ },
+ {
+  "nom": "Zambie",
+  "a": [
+   "zambie"
+  ],
+  "cont": "Afrique",
+  "cap": "Lusaka",
+  "capA": [
+   "lusaka"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-584ec62cb127.svg",
+  "shape": "img/pays/p-f090d3e61be4.svg"
+ },
+ {
+  "nom": "Zimbabwe",
+  "a": [
+   "zimbabwe"
+  ],
+  "cont": "Afrique",
+  "cap": "Harare",
+  "capA": [
+   "harare"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-6f6f73f280ba.svg",
+  "shape": "img/pays/p-9f100ecc5862.svg"
+ },
+ {
+  "nom": "Malawi",
+  "a": [
+   "malawi"
+  ],
+  "cont": "Afrique",
+  "cap": "Lilongwe",
+  "capA": [
+   "lilongwe"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-2adae879d6b5.svg",
+  "shape": "img/pays/p-f19c5af75fe3.svg"
+ },
+ {
+  "nom": "Mozambique",
+  "a": [
+   "mozambique"
+  ],
+  "cont": "Afrique",
+  "cap": "Maputo",
+  "capA": [
+   "maputo"
+  ],
+  "fait": "C’est une ancienne colonie portugaise d’Afrique de l’Est.",
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-b8b6d742d1a8.svg",
+  "shape": "img/pays/p-c9933805cb9f.svg"
+ },
+ {
+  "nom": "Madagascar",
+  "a": [
+   "madagascar"
+  ],
+  "cont": "Afrique",
+  "cap": "Antananarivo",
+  "capA": [
+   "antananarivo",
+   "tananarive"
+  ],
+  "fait": "C’est la quatrième plus grande île du monde.",
+  "df": 2,
+  "ds": 1,
+  "dc": 2,
+  "flag": "img/drapeaux/d-45373bcd06fa.svg",
+  "shape": "img/pays/p-ad731ad3b2de.svg"
+ },
+ {
+  "nom": "Namibie",
+  "a": [
+   "namibie"
+  ],
+  "cont": "Afrique",
+  "cap": "Windhoek",
+  "capA": [
+   "windhoek"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-21357fbc4d42.svg",
+  "shape": "img/pays/p-89b9fc5ea628.svg"
+ },
+ {
+  "nom": "Botswana",
+  "a": [
+   "botswana"
+  ],
+  "cont": "Afrique",
+  "cap": "Gaborone",
+  "capA": [
+   "gaborone"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-ab7d61a55df3.svg",
+  "shape": "img/pays/p-f96f0b0a67d4.svg"
+ },
+ {
+  "nom": "Afrique du Sud",
+  "a": [
+   "afrique du sud"
+  ],
+  "cont": "Afrique",
+  "cap": "Pretoria",
+  "capA": [
+   "pretoria",
+   "le cap",
+   "bloemfontein"
+  ],
+  "fait": "Nelson Mandela en a été le président.",
+  "df": 1,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-a1a231a1c813.svg",
+  "shape": "img/pays/p-960d51e74a01.svg"
+ },
+ {
+  "nom": "Lesotho",
+  "a": [
+   "lesotho"
+  ],
+  "cont": "Afrique",
+  "cap": "Maseru",
+  "capA": [
+   "maseru"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 0,
+  "dc": 2,
+  "flag": "img/drapeaux/d-5dc6b53ac9cf.svg"
+ },
+ {
+  "nom": "Eswatini",
+  "a": [
+   "eswatini",
+   "swaziland"
+  ],
+  "cont": "Afrique",
+  "cap": "Mbabane",
+  "capA": [
+   "mbabane"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 0,
+  "dc": 2,
+  "flag": "img/drapeaux/d-aea34d0aa29e.svg"
+ },
+ {
+  "nom": "Maurice",
+  "a": [
+   "maurice",
+   "ile maurice"
+  ],
+  "cont": "Afrique",
+  "cap": "Port-Louis",
+  "capA": [
+   "port louis"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 0,
+  "dc": 2,
+  "flag": "img/drapeaux/d-fd0a0a69f3d8.svg"
+ },
+ {
+  "nom": "Seychelles",
+  "a": [
+   "seychelles"
+  ],
+  "cont": "Afrique",
+  "cap": "Victoria",
+  "capA": [
+   "victoria"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 0,
+  "dc": 2,
+  "flag": "img/drapeaux/d-fb584907d83e.svg"
+ },
+ {
+  "nom": "Cap-Vert",
+  "a": [
+   "cap vert"
+  ],
+  "cont": "Afrique",
+  "cap": "Praia",
+  "capA": [
+   "praia"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 0,
+  "dc": 2,
+  "flag": "img/drapeaux/d-358905cbf31d.svg"
+ },
+ {
+  "nom": "États-Unis",
+  "a": [
+   "etats unis",
+   "usa",
+   "etats unis",
+   "amerique"
+  ],
+  "cont": "Amérique du Nord",
+  "cap": "Washington",
+  "capA": [
+   "washington"
+  ],
+  "fait": "Il compte 50 États.",
+  "df": 1,
+  "ds": 1,
+  "dc": 1,
+  "flag": "img/drapeaux/d-fe7176cf80a2.svg",
+  "shape": "img/pays/p-fa969930c285.svg"
+ },
+ {
+  "nom": "Canada",
+  "a": [
+   "canada"
+  ],
+  "cont": "Amérique du Nord",
+  "cap": "Ottawa",
+  "capA": [
+   "ottawa"
+  ],
+  "fait": "C’est le deuxième plus grand pays du monde par la superficie.",
+  "df": 1,
+  "ds": 0,
+  "dc": 1,
+  "flag": "img/drapeaux/d-07417b1a9b48.svg"
+ },
+ {
+  "nom": "Mexique",
+  "a": [
+   "mexique"
+  ],
+  "cont": "Amérique du Nord",
+  "cap": "Mexico",
+  "capA": [
+   "mexico"
+  ],
+  "fait": "Les Mayas et les Aztèques y ont bâti des cités.",
+  "df": 1,
+  "ds": 1,
+  "dc": 1,
+  "flag": "img/drapeaux/d-c90c3ba8666a.svg",
+  "shape": "img/pays/p-f1a7ccaf10f2.svg"
+ },
+ {
+  "nom": "Guatemala",
+  "a": [
+   "guatemala"
+  ],
+  "cont": "Amérique centrale et Caraïbes",
+  "cap": "Guatemala",
+  "capA": [
+   "guatemala",
+   "ciudad de guatemala"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-48d2645a573c.svg",
+  "shape": "img/pays/p-d18fa28b4390.svg"
+ },
+ {
+  "nom": "Belize",
+  "a": [
+   "belize"
+  ],
+  "cont": "Amérique centrale et Caraïbes",
+  "cap": "Belmopan",
+  "capA": [
+   "belmopan"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-92cf1bad3077.svg",
+  "shape": "img/pays/p-40b5b9c405e8.svg"
+ },
+ {
+  "nom": "Honduras",
+  "a": [
+   "honduras"
+  ],
+  "cont": "Amérique centrale et Caraïbes",
+  "cap": "Tegucigalpa",
+  "capA": [
+   "tegucigalpa"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-8c5ef90d0663.svg",
+  "shape": "img/pays/p-47de86b7c8ab.svg"
+ },
+ {
+  "nom": "Salvador",
+  "a": [
+   "salvador",
+   "el salvador"
+  ],
+  "cont": "Amérique centrale et Caraïbes",
+  "cap": "San Salvador",
+  "capA": [
+   "san salvador"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-a5fd17195b35.svg",
+  "shape": "img/pays/p-72d59de0634f.svg"
+ },
+ {
+  "nom": "Nicaragua",
+  "a": [
+   "nicaragua"
+  ],
+  "cont": "Amérique centrale et Caraïbes",
+  "cap": "Managua",
+  "capA": [
+   "managua"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-7552ee99ba1a.svg",
+  "shape": "img/pays/p-7c0a931e5672.svg"
+ },
+ {
+  "nom": "Costa Rica",
+  "a": [
+   "costa rica"
+  ],
+  "cont": "Amérique centrale et Caraïbes",
+  "cap": "San José",
+  "capA": [
+   "san jose"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-441641d2b2a5.svg",
+  "shape": "img/pays/p-b2024877ae9a.svg"
+ },
+ {
+  "nom": "Panama",
+  "a": [
+   "panama"
+  ],
+  "cont": "Amérique centrale et Caraïbes",
+  "cap": "Panama",
+  "capA": [
+   "panama"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-554eecc279cc.svg",
+  "shape": "img/pays/p-ae9d46e91681.svg"
+ },
+ {
+  "nom": "Cuba",
+  "a": [
+   "cuba"
+  ],
+  "cont": "Amérique centrale et Caraïbes",
+  "cap": "La Havane",
+  "capA": [
+   "la havane",
+   "havane"
+  ],
+  "fait": "C’est la plus grande île des Caraïbes.",
+  "df": 1,
+  "ds": 1,
+  "dc": 1,
+  "flag": "img/drapeaux/d-3ae5703b823d.svg",
+  "shape": "img/pays/p-7a8c488dc9a2.svg"
+ },
+ {
+  "nom": "Jamaïque",
+  "a": [
+   "jamaique"
+  ],
+  "cont": "Amérique centrale et Caraïbes",
+  "cap": "Kingston",
+  "capA": [
+   "kingston"
+  ],
+  "fait": "Usain Bolt et Bob Marley en sont originaires.",
+  "df": 1,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-124efeb03387.svg",
+  "shape": "img/pays/p-032b56813053.svg"
+ },
+ {
+  "nom": "Haïti",
+  "a": [
+   "haiti"
+  ],
+  "cont": "Amérique centrale et Caraïbes",
+  "cap": "Port-au-Prince",
+  "capA": [
+   "port au prince"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-a828c65d0bd5.svg",
+  "shape": "img/pays/p-7a1792bb4faf.svg"
+ },
+ {
+  "nom": "République dominicaine",
+  "a": [
+   "republique dominicaine"
+  ],
+  "cont": "Amérique centrale et Caraïbes",
+  "cap": "Saint-Domingue",
+  "capA": [
+   "saint domingue"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-831e9e399b57.svg",
+  "shape": "img/pays/p-b77c51caecfb.svg"
+ },
+ {
+  "nom": "Bahamas",
+  "a": [
+   "bahamas"
+  ],
+  "cont": "Amérique centrale et Caraïbes",
+  "cap": "Nassau",
+  "capA": [
+   "nassau"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 0,
+  "dc": 2,
+  "flag": "img/drapeaux/d-2018cfc72e37.svg"
+ },
+ {
+  "nom": "Trinité-et-Tobago",
+  "a": [
+   "trinite et tobago"
+  ],
+  "cont": "Amérique centrale et Caraïbes",
+  "cap": "Port-d’Espagne",
+  "capA": [
+   "port d espagne",
+   "port of spain"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 0,
+  "dc": 2,
+  "flag": "img/drapeaux/d-9952e866621c.svg"
+ },
+ {
+  "nom": "Barbade",
+  "a": [
+   "barbade"
+  ],
+  "cont": "Amérique centrale et Caraïbes",
+  "cap": "Bridgetown",
+  "capA": [
+   "bridgetown"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 0,
+  "dc": 2,
+  "flag": "img/drapeaux/d-5402f70df960.svg"
+ },
+ {
+  "nom": "Brésil",
+  "a": [
+   "bresil"
+  ],
+  "cont": "Amérique du Sud",
+  "cap": "Brasilia",
+  "capA": [
+   "brasilia"
+  ],
+  "fait": "On y parle portugais.",
+  "df": 1,
+  "ds": 1,
+  "dc": 1,
+  "flag": "img/drapeaux/d-2986615a954d.svg",
+  "shape": "img/pays/p-ca51a94e31e1.svg"
+ },
+ {
+  "nom": "Argentine",
+  "a": [
+   "argentine"
+  ],
+  "cont": "Amérique du Sud",
+  "cap": "Buenos Aires",
+  "capA": [
+   "buenos aires"
+  ],
+  "fait": "C’est le pays de Messi et du tango.",
+  "df": 1,
+  "ds": 1,
+  "dc": 1,
+  "flag": "img/drapeaux/d-78a0928035c1.svg",
+  "shape": "img/pays/p-d2183a6e8611.svg"
+ },
+ {
+  "nom": "Chili",
+  "a": [
+   "chili"
+  ],
+  "cont": "Amérique du Sud",
+  "cap": "Santiago",
+  "capA": [
+   "santiago"
+  ],
+  "fait": "Plus de 4 000 km de long pour moins de 200 km de large en moyenne.",
+  "df": 2,
+  "ds": 1,
+  "dc": 1,
+  "flag": "img/drapeaux/d-29b6e141375d.svg",
+  "shape": "img/pays/p-9fa9f7e1e330.svg"
+ },
+ {
+  "nom": "Pérou",
+  "a": [
+   "perou"
+  ],
+  "cont": "Amérique du Sud",
+  "cap": "Lima",
+  "capA": [
+   "lima"
+  ],
+  "fait": "On y visite le Machu Picchu.",
+  "df": 2,
+  "ds": 2,
+  "dc": 1,
+  "flag": "img/drapeaux/d-39f28f16b390.svg",
+  "shape": "img/pays/p-5f08bb7f46c1.svg"
+ },
+ {
+  "nom": "Colombie",
+  "a": [
+   "colombie"
+  ],
+  "cont": "Amérique du Sud",
+  "cap": "Bogota",
+  "capA": [
+   "bogota"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-546ab77d6195.svg",
+  "shape": "img/pays/p-610622e6bb6c.svg"
+ },
+ {
+  "nom": "Venezuela",
+  "a": [
+   "venezuela"
+  ],
+  "cont": "Amérique du Sud",
+  "cap": "Caracas",
+  "capA": [
+   "caracas"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-50a174fb771a.svg",
+  "shape": "img/pays/p-fda8f4134e07.svg"
+ },
+ {
+  "nom": "Équateur",
+  "a": [
+   "equateur"
+  ],
+  "cont": "Amérique du Sud",
+  "cap": "Quito",
+  "capA": [
+   "quito"
+  ],
+  "fait": "L’équateur passe juste au nord de sa capitale.",
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-4a6f40e5ca79.svg",
+  "shape": "img/pays/p-0de1c6c013b7.svg"
+ },
+ {
+  "nom": "Bolivie",
+  "a": [
+   "bolivie"
+  ],
+  "cont": "Amérique du Sud",
+  "cap": "Sucre",
+  "capA": [
+   "sucre",
+   "la paz"
+  ],
+  "fait": "Il partage le lac Titicaca avec le Pérou.",
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-069e33d03419.svg",
+  "shape": "img/pays/p-1089f320f7b9.svg"
+ },
+ {
+  "nom": "Paraguay",
+  "a": [
+   "paraguay"
+  ],
+  "cont": "Amérique du Sud",
+  "cap": "Asuncion",
+  "capA": [
+   "asuncion"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-5337c468e686.svg",
+  "shape": "img/pays/p-5f54e3e40395.svg"
+ },
+ {
+  "nom": "Uruguay",
+  "a": [
+   "uruguay"
+  ],
+  "cont": "Amérique du Sud",
+  "cap": "Montevideo",
+  "capA": [
+   "montevideo"
+  ],
+  "fait": "Il a remporté la toute première Coupe du monde de football, en 1930.",
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-0610c1009b37.svg",
+  "shape": "img/pays/p-1cef0df88f12.svg"
+ },
+ {
+  "nom": "Guyana",
+  "a": [
+   "guyana"
+  ],
+  "cont": "Amérique du Sud",
+  "cap": "Georgetown",
+  "capA": [
+   "georgetown"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-d2638ce72d82.svg",
+  "shape": "img/pays/p-cf43b30f4717.svg"
+ },
+ {
+  "nom": "Suriname",
+  "a": [
+   "suriname"
+  ],
+  "cont": "Amérique du Sud",
+  "cap": "Paramaribo",
+  "capA": [
+   "paramaribo"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-2524e4115cf4.svg",
+  "shape": "img/pays/p-5c16ff411b7e.svg"
+ },
+ {
+  "nom": "Australie",
+  "a": [
+   "australie"
+  ],
+  "cont": "Océanie",
+  "cap": "Canberra",
+  "capA": [
+   "canberra"
+  ],
+  "fait": "Kangourous et koalas y vivent à l’état sauvage.",
+  "df": 2,
+  "ds": 1,
+  "dc": 1,
+  "flag": "img/drapeaux/d-f89203fb6f6e.svg",
+  "shape": "img/pays/p-91a48b6005af.svg"
+ },
+ {
+  "nom": "Nouvelle-Zélande",
+  "a": [
+   "nouvelle zelande"
+  ],
+  "cont": "Océanie",
+  "cap": "Wellington",
+  "capA": [
+   "wellington"
+  ],
+  "fait": "La trilogie du Seigneur des anneaux y a été tournée.",
+  "df": 2,
+  "ds": 1,
+  "dc": 2,
+  "flag": "img/drapeaux/d-4a624df54dc0.svg",
+  "shape": "img/pays/p-121d2d0eec5d.svg"
+ },
+ {
+  "nom": "Papouasie-Nouvelle-Guinée",
+  "a": [
+   "papouasie nouvelle guinee",
+   "papouasie"
+  ],
+  "cont": "Océanie",
+  "cap": "Port Moresby",
+  "capA": [
+   "port moresby"
+  ],
+  "fait": "Plus de 800 langues y sont parlées.",
+  "df": 2,
+  "ds": 2,
+  "dc": 2,
+  "flag": "img/drapeaux/d-ab10fcd839ea.svg",
+  "shape": "img/pays/p-fff5c9f07da3.svg"
+ },
+ {
+  "nom": "Fidji",
+  "a": [
+   "fidji"
+  ],
+  "cont": "Océanie",
+  "cap": "Suva",
+  "capA": [
+   "suva"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 0,
+  "dc": 2,
+  "flag": "img/drapeaux/d-6c6e2590128e.svg"
+ },
+ {
+  "nom": "Samoa",
+  "a": [
+   "samoa"
+  ],
+  "cont": "Océanie",
+  "cap": "Apia",
+  "capA": [
+   "apia"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 0,
+  "dc": 2,
+  "flag": "img/drapeaux/d-22a195e3d578.svg"
+ },
+ {
+  "nom": "Tonga",
+  "a": [
+   "tonga"
+  ],
+  "cont": "Océanie",
+  "cap": "Nukuʻalofa",
+  "capA": [
+   "nuku alofa",
+   "nukualofa"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 0,
+  "dc": 2,
+  "flag": "img/drapeaux/d-35aec1cda927.svg"
+ },
+ {
+  "nom": "Kiribati",
+  "a": [
+   "kiribati"
+  ],
+  "cont": "Océanie",
+  "cap": "Tarawa",
+  "capA": [
+   "tarawa"
+  ],
+  "fait": null,
+  "df": 2,
+  "ds": 0,
+  "dc": 2,
+  "flag": "img/drapeaux/d-33e2b051c601.svg"
+ }
+]
